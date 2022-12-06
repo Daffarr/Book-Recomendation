@@ -1,4 +1,4 @@
-# *Book Recomendation - Daffa Rayhan Riadi*
+# *Book Recomendation* - Daffa Rayhan Riadi
  
 ## *Project Overview*
 
