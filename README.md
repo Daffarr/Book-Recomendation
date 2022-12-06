@@ -15,7 +15,7 @@ Berdasarkan latar belakang yang telah dijelaskan di atas, topik proyek ini diamb
 Berdasarkan pada latar belakang diatas, permasalahan yang dapat diselesaikan pada proyek ini adalah sebagai berikut: 
 Menjelaskan pernyataan masalah:
 - Bagaimana cara memproses data sehingga dapat di latih dengan baik oleh model?
-- Bagaiana cara membangun model *machine learning* yang dapat memberikan hasil rekomendasi yang baik dan relevan dan sesuai dengan preferensi pengguna?
+- Bagaimana cara membangun model *machine learning* yang dapat memberikan hasil rekomendasi yang baik dan relevan dan sesuai dengan preferensi pengguna?
 
 ### *Goals*
 Tujuan dibuatnya proyek ini adalah sebagai berikut:
@@ -84,7 +84,7 @@ Penjelasan mengenai data ***Books.csv*** dan ***Ratings.csv*** sebagai berikut:
 Sebelum melakukan pemrosesan data untuk pelatihan, perlu dilakukan analisa pada data untuk mengetahui keadaan pada data seperti eksplorasi pada data, eksplorasi yang di lakukan antara lain:
 
 - Menghitung Shape Buku dan *Rating*
-  Disini dapat kita ketahui bahwa shape data yang ada pada kedua *dataset* ini sebagai berikut:
+  Disini dapat diketahui bahwa shape data yang ada pada kedua *dataset* ini sebagai berikut:
  
   |***Dataset***| ***Row*** | ***Column*** |
   |:---:|:---:|:---:|
@@ -163,7 +163,7 @@ Berikut merupakan tahapan dalam mempersiapkan data untuk keperluan pelatihan mod
 
   Membagi *dataset* menjadi data latih **(x_*train* & y_*train*)** dan data uji **(x_*test* & y_*test*)** sebelum membuat model. Data latih adalah sekumpulan data yang akan digunakan oleh model *machine learning* untuk melakukan pelatihan. Sedangkan data uji adalah sekumpulan data yang akan digunakan untuk memvalidasi kinerja pada model *machine learning* yang telah dilatih. Karena data uji berperan sebagai data baru yang belum pernah dilihat oleh model *machine learning*, maka cara ini efektif untuk memeriksa performa model *machine learning* setelah proses pelatihan dilakukan. Proporsi pembagian *dataset* pada proyek ini menggunakan proporsi pembagian **90:10** yang berarti sebanyak **90% merupakan data latih** dan **10% persen merupakan data uji**, kemudian ***random_state** bernilai **32**.
 
-# *Modeling*
+# *Modeling nad Result*
 Model atau Algoritma yang digunakan pada proyek ini adalah sebagai berikut: 
 
 - ***Collaborative Filtering* (*CF*)**
@@ -179,11 +179,64 @@ Model atau Algoritma yang digunakan pada proyek ini adalah sebagai berikut:
   Kekurangan:
   - Membutuhkan parameter *rating*, sehingga jika ada item baru sistem tidak akan merekomendasikan item tersebut.
 
-# *Result*
-
 Setelah model dibuat dan dilatih, berikut adalah hasil rekomendasi dari model ***Collaborative Filtering* (*CF*)** :
 
-<img src="https://user-images.githubusercontent.com/77198942/205906276-7056e9ed-0a55-48d2-b4cd-30a637037bff.png" style="background-color:#FFFF" width="500"/>
+**Tabel 1** Hasil Rekomendasi
+<table>
+    <thead>
+        <tr>
+            <th colspan=3>Menampilkan Rekomendasi Untuk Pengguna Dengan ID 230708</th>
+        </tr>
+    </thead>
+  <thead>
+        <tr>
+            <th>Buku Dengan 5 Peringkat Tinggi Dari Pengguna</th>
+            <th colspan=1>Rekomendasi 10 Buku Terbaik Kepada Pengguna</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        	   <td>1. <a href="http://images.amazon.com/images/P/0440224721.01.THUMBZZZ.jpg">Obstruction of Justice</a></td> 
+            <td>1. <a href="http://images.amazon.com/images/P/0394800389.01.THUMBZZZ.jpg">Fox in Socks</a></td>
+        </tr>
+        <tr>
+        	   <td>2. <a href="http://images.amazon.com/images/P/0380818655.01.THUMBZZZ.jpg">Another Summer</a></td>
+            <td>2. <a href="http://images.amazon.com/images/P/096265342X.01.THUMBZZZ.jpg">Principia Discordia</a></td>
+        </tr>
+        <tr>
+            <td>3. <a href="http://images.amazon.com/images/P/0821771078.01.THUMBZZZ.jpg">An Outlaw for Christmas (Zebra Historical Romance)</a></td>
+            <td>3. <a href="http://images.amazon.com/images/P/0760707251.01.THUMBZZZ.jpg">Charlottes Web Special Read Along Edition</a></td>
+        </tr>
+        <tr>
+            <td>4. <a href="http://images.amazon.com/images/P/0553578138.01.THUMBZZZ.jpg">A Place to Call Home</a></td>
+            <td>4. <a href="http://images.amazon.com/images/P/1578591201.01.THUMBZZZ.jpg">VideoHound's Golden Movie Retriever 2001</a></td>
+        </tr>
+        <tr>
+            <td>5. <a href="http://images.amazon.com/images/P/044022361X.01.THUMBZZZ.jpg">Wild Dream</a></td>
+            <td>5. <a href="http://images.amazon.com/images/P/0689801505.01.THUMBZZZ.jpg">Chimps Don't Wear Glasses</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>6. <a href="http://images.amazon.com/images/P/0316286850.01.THUMBZZZ.jpg">Making Faces</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>7. <a href="http://images.amazon.com/images/P/0091842050.01.THUMBZZZ.jpg">The Blue Day Book: A Lesson in Cheering Yourself Up</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>8. <a href="http://images.amazon.com/images/P/0060280034.01.THUMBZZZ.jpg">Dinotopia: A Land Apart from Time (Dinotopia)</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>9. <a href="http://images.amazon.com/images/P/2020551470.01.THUMBZZZ.jpg">Le baron perche</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>10. <a href="http://images.amazon.com/images/P/0393048470.01.THUMBZZZ.jpg">The Annotated Alice: The Definitive Edition</a></td>
+        </tr>
+    </tbody>
+</table>
 
 Dapat dilihat bahwa rekomendasi buku yang dihasilkan relevan dan sesuai dengan preferensi dari pengguna berdasarkan *rating* yang diberikan
 
@@ -191,7 +244,7 @@ Dapat dilihat bahwa rekomendasi buku yang dihasilkan relevan dan sesuai dengan p
 Evaluasi untuk proyek *machine learning* pada model ***Collaborative Filtering* (*CF*)** ini akan menggunakan metrik ***Root Mean Squared Error* (*RMSE*)**, Cara Menghitung metrik ini adalah dengan mengurangi nilai aktual dengan nilai peramalan kemudian dikuadratkan dan dijumlahkan keseluruhan hasilnya kemudian dibagi dengan banyaknya data. Hasil perhitungan tersebut selanjutnya dihitung kembali untuk mencari nilai dari akar kuadrat. Semakin rendah nilai ***Root Mean Squared Error* (*RMSE*)** juga menandakan semakin baik model *machine learning* tersebut dalam melakukan prediksi sehingga kemudian dapat memberikan rekomendasi terbaik kepada pengguna.
 
   $$ RMSE = { \sqrt\frac{\displaystyle \sum_{t=1}^n (A_t-F_t)^2} {n} } $$
-
+  
 Dimana : 
 * $A_t$ = Nilai Data Aktual
 * $F_t$ = Nilai Hasil Peramalan
