@@ -190,7 +190,7 @@ Dapat dilihat bahwa rekomendasi buku yang dihasilkan relevan dan sesuai dengan p
 # Evaluasi
 Evaluasi untuk proyek *machine learning* pada model ***Collaborative Filtering* (*CF*)** ini akan menggunakan metrik ***Root Mean Squared Error* (*RMSE*)**, Cara Menghitung metrik ini adalah dengan mengurangi nilai aktual dengan nilai peramalan kemudian dikuadratkan dan dijumlahkan keseluruhan hasilnya kemudian dibagi dengan banyaknya data. Hasil perhitungan tersebut selanjutnya dihitung kembali untuk mencari nilai dari akar kuadrat. Semakin rendah nilai ***Root Mean Squared Error* (*RMSE*)** juga menandakan semakin baik model *machine learning* tersebut dalam melakukan prediksi sehingga kemudian dapat memberikan rekomendasi terbaik kepada pengguna.
 
-  $$ *RMSE* = { \sqrt\frac{\displaystyle \sum_{t=1}^n (A_t-F_t)^2} {n} } $$
+  $$ RMSE = { \sqrt\frac{\displaystyle \sum_{t=1}^n (A_t-F_t)^2} {n} } $$
 
 Dimana : 
 * $A_t$ = Nilai Data Aktual
