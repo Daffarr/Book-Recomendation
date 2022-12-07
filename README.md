@@ -70,7 +70,7 @@ Penjelasan mengenai data ***Books.csv*** dan ***Ratings.csv*** sebagai berikut:
   - ***ISBN***: Kode pengidentifikasian buku yang bersifat unik.
   - ***Book-Rating***: Skor dari *rating* yang diberikan.
 
-  *File* ini memiliki **1149780** baris** dan **3 kolom** sampel data dan tipe data variabel yang dimiliki oleh *file Rating.csv* adalah *integer* dan *object*, dapat dilihat sebagai berikut:
+  *File* ini memiliki **1149780 baris** dan **3 kolom** sampel data dan tipe data variabel yang dimiliki oleh *file Rating.csv* adalah *integer* dan *object*, dapat dilihat sebagai berikut:
   
   Tabel 2 *Ratings.csv*
   
