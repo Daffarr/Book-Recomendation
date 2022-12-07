@@ -196,44 +196,44 @@ Setelah model dibuat dan dilatih, berikut adalah hasil rekomendasi dari model **
     </thead>
     <tbody>
         <tr>
-        	   <td>1. <a href="http://images.amazon.com/images/P/0440224721.01.THUMBZZZ.jpg">Obstruction of Justice</a></td> 
-            <td>1. <a href="http://images.amazon.com/images/P/0394800389.01.THUMBZZZ.jpg">Fox in Socks</a></td>
+        	   <td>1. <a href="http://images.amazon.com/images/P/0440224721.01.THUMBZZZ.jpg"><i>Obstruction of Justice</i></a></td> 
+            <td>1. <a href="http://images.amazon.com/images/P/0394800389.01.THUMBZZZ.jpg"><i>Fox in Socks</i></a></td>
         </tr>
         <tr>
-        	   <td>2. <a href="http://images.amazon.com/images/P/0380818655.01.THUMBZZZ.jpg">Another Summer</a></td>
-            <td>2. <a href="http://images.amazon.com/images/P/096265342X.01.THUMBZZZ.jpg">Principia Discordia</a></td>
+        	   <td>2. <a href="http://images.amazon.com/images/P/0380818655.01.THUMBZZZ.jpg"><i>Another Summer</i></a></td>
+            <td>2. <a href="http://images.amazon.com/images/P/096265342X.01.THUMBZZZ.jpg"><i>Principia Discordia</i></a></td>
         </tr>
         <tr>
-            <td>3. <a href="http://images.amazon.com/images/P/0821771078.01.THUMBZZZ.jpg">An Outlaw for Christmas (Zebra Historical Romance)</a></td>
-            <td>3. <a href="http://images.amazon.com/images/P/0760707251.01.THUMBZZZ.jpg">Charlottes Web Special Read Along Edition</a></td>
+            <td>3. <a href="http://images.amazon.com/images/P/0821771078.01.THUMBZZZ.jpg"><i>An Outlaw for Christmas (Zebra Historical Romance)</i></a></td>
+            <td>3. <a href="http://images.amazon.com/images/P/0760707251.01.THUMBZZZ.jpg"><i>Charlottes Web Special Read Along Edition</i></a></td>
         </tr>
         <tr>
-            <td>4. <a href="http://images.amazon.com/images/P/0553578138.01.THUMBZZZ.jpg">A Place to Call Home</a></td>
-            <td>4. <a href="http://images.amazon.com/images/P/1578591201.01.THUMBZZZ.jpg">VideoHound's Golden Movie Retriever 2001</a></td>
+            <td>4. <a href="http://images.amazon.com/images/P/0553578138.01.THUMBZZZ.jpg"><i>A Place to Call Home</i></a></td>
+            <td>4. <a href="http://images.amazon.com/images/P/1578591201.01.THUMBZZZ.jpg"><i>VideoHound's Golden Movie Retriever 2001</i></a></td>
         </tr>
         <tr>
-            <td>5. <a href="http://images.amazon.com/images/P/044022361X.01.THUMBZZZ.jpg">Wild Dream</a></td>
-            <td>5. <a href="http://images.amazon.com/images/P/0689801505.01.THUMBZZZ.jpg">Chimps Don't Wear Glasses</a></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>6. <a href="http://images.amazon.com/images/P/0316286850.01.THUMBZZZ.jpg">Making Faces</a></td>
+            <td>5. <a href="http://images.amazon.com/images/P/044022361X.01.THUMBZZZ.jpg"><i>Wild Dream</i></a></td>
+            <td>5. <a href="http://images.amazon.com/images/P/0689801505.01.THUMBZZZ.jpg"><i>Chimps Don't Wear Glasses</i></a></td>
         </tr>
         <tr>
             <td></td>
-            <td>7. <a href="http://images.amazon.com/images/P/0091842050.01.THUMBZZZ.jpg">The Blue Day Book: A Lesson in Cheering Yourself Up</a></td>
+            <td>6. <a href="http://images.amazon.com/images/P/0316286850.01.THUMBZZZ.jpg"><i>Making Faces</i></a></td>
         </tr>
         <tr>
             <td></td>
-            <td>8. <a href="http://images.amazon.com/images/P/0060280034.01.THUMBZZZ.jpg">Dinotopia: A Land Apart from Time (Dinotopia)</a></td>
+            <td>7. <a href="http://images.amazon.com/images/P/0091842050.01.THUMBZZZ.jpg"><i>The Blue Day Book: A Lesson in Cheering Yourself Up</i></a></td>
         </tr>
         <tr>
             <td></td>
-            <td>9. <a href="http://images.amazon.com/images/P/2020551470.01.THUMBZZZ.jpg">Le baron perche</a></td>
+            <td>8. <a href="http://images.amazon.com/images/P/0060280034.01.THUMBZZZ.jpg"><i>Dinotopia: A Land Apart from Time (Dinotopia)</i></a></td>
         </tr>
         <tr>
             <td></td>
-            <td>10. <a href="http://images.amazon.com/images/P/0393048470.01.THUMBZZZ.jpg">The Annotated Alice: The Definitive Edition</a></td>
+            <td>9. <a href="http://images.amazon.com/images/P/2020551470.01.THUMBZZZ.jpg"><i>Le baron perche</i></a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>10. <a href="http://images.amazon.com/images/P/0393048470.01.THUMBZZZ.jpg"><i>The Annotated Alice: The Definitive Edition</i></a></td>
         </tr>
     </tbody>
 </table>
