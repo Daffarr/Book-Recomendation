@@ -163,7 +163,7 @@ Berikut merupakan tahapan dalam mempersiapkan data untuk keperluan pelatihan mod
 
   Membagi *dataset* menjadi data latih **(x_*train* & y_*train*)** dan data uji **(x_*test* & y_*test*)** sebelum membuat model. Data latih adalah sekumpulan data yang akan digunakan oleh model *machine learning* untuk melakukan pelatihan. Sedangkan data uji adalah sekumpulan data yang akan digunakan untuk memvalidasi kinerja pada model *machine learning* yang telah dilatih. Karena data uji berperan sebagai data baru yang belum pernah dilihat oleh model *machine learning*, maka cara ini efektif untuk memeriksa performa model *machine learning* setelah proses pelatihan dilakukan. Proporsi pembagian *dataset* pada proyek ini menggunakan proporsi pembagian **90:10** yang berarti sebanyak **90% merupakan data latih** dan **10% persen merupakan data uji**, kemudian ***random_state** bernilai **32**.
 
-# *Modeling nad Result*
+# *Modeling and Result*
 Model atau Algoritma yang digunakan pada proyek ini adalah sebagai berikut: 
 
 - ***Collaborative Filtering* (*CF*)**
